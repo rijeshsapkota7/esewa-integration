@@ -1,0 +1,17 @@
+{
+  "name": "esewa-integration",
+  "version": "1.0.0",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "shopify-api-node": "^3.15.0"
+  }
+}
